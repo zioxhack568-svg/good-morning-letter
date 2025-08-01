@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: good-morning
+    env: python
+    buildCommand: ""
+    startCommand: "python good_morning.py"
+    plan: free
